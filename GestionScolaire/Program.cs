@@ -16,7 +16,7 @@ namespace GestionScolaire
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Autountification());
+            Application.Run(new garde_generaleForm());
         }
     }
 }

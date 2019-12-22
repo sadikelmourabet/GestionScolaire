@@ -16,5 +16,15 @@ namespace GestionScolaire
         {
             InitializeComponent();
         }
+
+        private void garde_generaleForm_Load(object sender, EventArgs e)
+        {
+            btn_ds.Enabled = false;
+        }
+
+        private void btn_quitter_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

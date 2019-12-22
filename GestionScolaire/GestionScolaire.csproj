@@ -78,6 +78,9 @@
     <EmbeddedResource Include="directeurForm.resx">
       <DependentUpon>directeurForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="garde_generaleForm.resx">
+      <DependentUpon>garde_generaleForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
