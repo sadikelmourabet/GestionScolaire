@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(garde_generaleForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_ds = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.btn_quitter = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -41,8 +43,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.btn_ds = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -64,6 +64,27 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(183, 591);
             this.panel1.TabIndex = 0;
+            // 
+            // btn_ds
+            // 
+            this.btn_ds.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ds.Image = ((System.Drawing.Image)(resources.GetObject("btn_ds.Image")));
+            this.btn_ds.Location = new System.Drawing.Point(34, 12);
+            this.btn_ds.Name = "btn_ds";
+            this.btn_ds.Size = new System.Drawing.Size(112, 98);
+            this.btn_ds.TabIndex = 5;
+            this.btn_ds.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(21, 113);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(140, 17);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Mr.Surveillant generale";
             // 
             // btn_quitter
             // 
@@ -190,27 +211,6 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(10, 573);
             this.panel5.TabIndex = 4;
-            // 
-            // btn_ds
-            // 
-            this.btn_ds.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ds.Image = ((System.Drawing.Image)(resources.GetObject("btn_ds.Image")));
-            this.btn_ds.Location = new System.Drawing.Point(34, 12);
-            this.btn_ds.Name = "btn_ds";
-            this.btn_ds.Size = new System.Drawing.Size(112, 98);
-            this.btn_ds.TabIndex = 5;
-            this.btn_ds.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calisto MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(21, 113);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 17);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Mr.Surveillant generale";
             // 
             // garde_generaleForm
             // 
